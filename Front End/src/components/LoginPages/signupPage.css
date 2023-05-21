@@ -1,0 +1,131 @@
+.newApp{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.loginBox{
+    color: rgb(11, 11, 11);
+    margin: auto;
+    width: 24em;
+    margin-top: 23vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.loginBox img{
+    height: 54px;
+}
+.loginBox h1{
+    font-weight: bolder;
+}
+.loginForm{
+    color: rgb(11, 11, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 24em;
+    margin-top: 3vh;
+    text-align: center;
+}
+.loginForm form{
+  display:flex;
+  flex-direction: column;
+}
+.loginForm input{
+    padding:0 5px;
+    height: 4.68vh;
+    width: 93%;
+    margin:5px 0px;
+    border: 2px solid black;
+    
+}
+
+.signup-submit{
+    width: 95%;
+    height: 7vh;
+    margin:0 auto;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+.signup-submit:hover{
+
+    font-weight: 500;
+    background-color: rgb(44, 44, 44);;
+}
+input,
+/* select {
+  font-family: 'Roboto', sans-serif;
+  border: solid 1px #89a6bb;
+  padding: 0.5rem;
+  border-radius: 3px;
+  -webkit-appearance: none;
+} */
+
+h2 {
+  margin: 3rem 0 1rem;
+}
+
+.date-field {
+    width: 30px;
+    text-align: center;
+    
+  }
+
+.single-date-field {
+  width: 120px;
+}
+
+.field-inline-block {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;  
+}
+
+select{
+    position: relative;
+    width:24vh ;
+    border:2px solid black;
+    padding: 9px 20px;
+    top: -6.7vh;
+    left: 8vh;
+    
+  }
+  
+  select:focus{
+    outline:none;
+  }
+
+.DOB{
+    width: 24vh;
+}
+.genderLabel{
+    position: relative;
+    top: -11vh;
+    left: 24vh;
+}
+.names{
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+}
+.lName{
+    position: relative;
+    left: 2.5vh;
+
+}
+.gender{
+    height: 4.9vh;
+    position: relative;
+    top: -5.5vh;
+    padding: 0px;
+}
+.policyPara{
+  margin: auto;
+  margin-top: 10px;
+  font-size: 10px;;
+  /* width: 60vh; */
+}

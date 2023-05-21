@@ -1,0 +1,90 @@
+.card{
+    background-color: rgb(156, 229, 255);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 2% 0;
+    box-shadow: 4px 4px 6px 5px rgba(0, 0, 0, 0.2);
+    width:80vw;
+}
+.cardo{
+    display: flex;
+    margin: 5px 10px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.timing{
+    /* margin:0 10px; */
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: small;
+}
+ 
+.card-description{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 0px;
+}
+.post-container{
+    max-height:150px; 
+    display: flex;
+    /* width:% */
+    /* margin:2% 0; */
+    padding:1% 1%;
+    margin-left: 50px ;
+    margin-right: 30px;
+    background-color: white;
+    border-radius:10px;
+    justify-content: left;
+} 
+.post-container p{
+    border: none;
+    margin:5px 20px;
+    height:100px;
+    width:100%;
+    text-align: justify;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    
+}
+.post-container p::-webkit-scrollbar{
+    display: none;
+}
+.card-description .dp{
+    width:35px;
+    height:35px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius:50%;
+}
+.sharing{
+    display: flex;
+    margin-left:50px;
+    justify-content: left;
+    align-items: center;
+}
+.sharing-obj{
+    margin:0 5px;
+    font-size: 1.5rem;
+}
+.sharing-form input{
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 0.8rem;
+    height:23px;
+}
+@media screen and (max-width:800px) {
+    .post-container {
+        margin-left:10px;
+        margin-right:10px;
+    }
+    .sharing{
+        margin-left:2.5%;
+    }
+    .card{
+        width:90vw;
+    }
+}

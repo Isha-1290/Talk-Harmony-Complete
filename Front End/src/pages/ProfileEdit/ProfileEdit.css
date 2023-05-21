@@ -1,0 +1,129 @@
+.profile-edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2% 0;
+    margin: 70px auto;
+    /* padding:10% 0; */
+}
+.profile-edit h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.profile-container-edit{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 3rem 5rem;
+}
+.profile-img-edit{
+    width:200px; 
+    height:200px;
+    margin-left:7rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url("./Card1.png") ;
+    border:1px solid black;
+}
+.profile-left-edit th,.profile-left-edit td,.profile-left-edit input{
+    font-size :1.2rem;
+    border:1px solid black;
+    min-height: 30px;
+    text-align: left;
+    
+}
+
+.profile-left-edit th{
+    border:none;
+    width:100px;
+}
+.profile-left-edit td,.profile-left-edit input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-left-edit input{
+    margin:0 auto;
+    border:none;
+}
+.profile-left-edit td ,.profile-left-edit input{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    width:200px;
+    /* padding-left:10px; */
+    opacity: 0.7;
+    font-size: 1rem;
+    /* overflow-x: scroll; */
+}
+.profile-left-edit input::-webkit-scrollbar{
+    display:none;
+}
+.profile-left-edit table{
+    border-collapse:separate;
+    border-spacing: 20px 40px;
+}
+.profile-img-button-edit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+}
+
+.profile-edit button{
+    font-size:1 rem;
+    margin-top:4rem;
+    padding:5px 20px;
+    background-color: rgb(74, 74, 74);
+    color:white;
+    border-radius:5px;
+
+}
+
+.profile-edit-button-edit button:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px #363030;
+    background-color: #363030;
+}
+
+@media screen and (max-width:800px) {
+    .profile-edit{
+        padding:0 4%;
+    }
+    .profile-right-edit{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .profile-container-edit{
+        flex-direction:column-reverse;
+        padding:5% 0;
+    }
+    .profile-edit button{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .profile-img-edit{
+        width:150px;
+        height:150px;
+        margin: 0 auto;
+        /* margin-bottom:3rem; */
+    }
+    .profile-edit-button-edit{
+        margin:0 auto;
+    }
+    .profile-left-edit table{
+        /* border-collapse:separate; */
+        border-spacing: 40px 10px;
+    }
+    .profile-left-edit td,.profile-left-edit th{
+        font-size: 1rem;
+    }
+    .profile-edit-button-edit button{
+        padding:2px 30px;
+    }
+}

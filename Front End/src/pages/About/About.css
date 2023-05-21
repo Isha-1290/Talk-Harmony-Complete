@@ -1,0 +1,119 @@
+.details{
+    width:80%;
+    margin:70px auto;
+}
+.details h1{
+    text-align: center;
+}
+.details-header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin:3% auto;
+    width:70%;
+    height:60vh;
+}
+.header-text{
+    /* width:40%; */
+    font-size: larger;
+    font-weight:600;
+    margin:30px 100px;
+}
+.header-image{
+    /* height: 20vh; */
+    /* width:80%; */
+    margin-left:2%;
+    background-size: cover;
+    /* background-image: url("./header-opt.jpg"); */
+}
+.header-image img{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin:50px auto;
+    justify-content: center;
+    width: 80%;
+    
+    /* gap:20px; */
+}
+.team-card{
+    background: rgb(240, 239, 239);
+    /* border:1px solid black; */
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    /* height:100px; */
+    margin:10px 10px;
+    color:black;
+    width:fit-content;
+    padding :2px 2px;
+    padding-bottom: 1rem;
+}
+.team-image{
+    height:300px;
+    width:300px;
+    margin:5px auto;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.team-image img{
+    height:300px;
+    width:280px;
+    border-radius:10px;
+    border:1px solid black;
+}
+.team-head{
+    background-color: bisque;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+}
+.team-details a{
+    background:black;
+    color:white;
+    padding:5px 10px;
+    border-radius:5px;
+}
+.team-details h3{
+    margin: 10px auto;
+}
+.team-details{
+    text-align: center ;
+    margin:0 1rem;
+    border-radius:10px;
+}
+
+@media screen and (max-width:1600px) {
+    .team{
+        grid-template-columns: repeat(3,1fr);
+        /* gap:5px; */
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .details-header{
+        flex-direction: column;
+        width:70%;
+    }
+    
+    .team{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .header-text{
+        margin:4% auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .team{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

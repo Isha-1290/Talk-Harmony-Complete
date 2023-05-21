@@ -1,0 +1,61 @@
+
+.loginBox{
+    display: flex;
+    color: rgb(11, 11, 11);
+    /* border:2px solid blue; */
+    margin: auto;
+    width: 24em;
+    margin-top: 24vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.loginBox img{
+    height: 54px;
+}
+.loginBox h1{
+    font-weight: bolder;
+}
+.loginForm{
+    color: rgb(11, 11, 11);
+    /* border:2px solid blue; */
+    margin: auto;
+    width: 24em;
+    margin-top: 3vh;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.loginForm input{
+    height: 6vh;
+    width: 95%;
+    margin:5px 0px;
+    border: 2px solid black;
+}
+
+.loginForm input[type="submit"]{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    margin-top: 22px;
+    justify-content: center;
+}
+.loginForm input[type="submit"]:hover{
+    background-color: #7e7ef0;
+    color: black;
+}
+.Questions{
+    width: 27vh;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 7vh;
+    font-size: small;
+}
+.Questions a{
+    text-decoration: none;
+    color: black
+}
+.Questions a:hover{
+    text-decoration: underline;
+    font-size: medium;
+}

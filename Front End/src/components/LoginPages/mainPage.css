@@ -1,0 +1,170 @@
+/*
+* {
+    transition: 0.3s;
+    box-sizing: border-box;
+  }
+#nav-icon2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: 5px 25px;
+    cursor: pointer;
+   
+  }
+  #nav-icon2:hover {
+    border: 2px solid #474444;
+  }
+  #nav-icon2:hover span {
+    background: #6b617b;
+  }
+  
+  #nav-icon2 span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    margin: 0;
+    background: rgb(21, 20, 20);
+    border-radius: 5px;
+  }
+  
+  #nav-icon2 span:nth-child(-n+9) {
+    left: 27.5px;
+  }
+  
+  #nav-icon2 span:nth-child(-n+6) {
+    left: 17.5px;
+  }
+  
+  #nav-icon2 span:nth-child(-n+3) {
+    left: 7.5px;
+  }
+  
+  #nav-icon2 span:nth-child(3n+1) {
+    top: 7.5px;
+  }
+  
+  #nav-icon2 span:nth-child(3n+2) {
+    top: 17.5px;
+  }
+  
+  #nav-icon2 span:nth-child(3n+3) {
+    top: 27.5px;
+  }
+
+.right{
+  display: flex;
+  margin: 2px 7vh;
+}
+.right input {
+  height: 12px;
+}
+.right img{
+  height: 42px;
+  margin:0px 16px;
+  
+}
+.left-container{
+  
+  width: 35vh;
+  height: 91.2vh;
+  box-sizing: border-box;
+  margin-top: 8.8vh;
+  box-shadow: 12px 0 3px -3px #00000030
+}
+.user-buttons button{
+  position: relative;
+  top:0vh;
+  margin:26px 36px;
+  height: 39px;
+  width: 21vh;
+  display: flex;
+  background-color: rgb(202, 115, 246);
+  align-items: center;
+  font-size: medium;
+  justify-content:left;
+  transition: transform .2s; 
+  padding-left: 23px;
+}
+.user-buttons button:hover{
+  background-color: rgb(172, 112, 229);
+  font-weight: bold;
+  color: white;
+  transform: scale(1.1); 
+}
+.log-out button{
+  position: relative;
+  top: 28vh;
+  margin: 2px 7vh;
+  border: none;
+  outline: none;
+  background-color: #201f1f;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform .2s; 
+
+}
+.log-out button:hover{
+  text-shadow: 1px 1px #d8cfd9;
+  transform: scale(1.1); 
+}
+.left-container button img{
+  height: 23px;
+  margin: auto 7px;
+}
+.main-App{
+  display: flex;
+}
+.right-container{
+  width: 100%;
+  margin:0px 43px ;
+  margin-top: 8.8vh;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 8.8vh;
+  left: 0;
+  background-color: #201f1f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+*/
+/*
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+*/
